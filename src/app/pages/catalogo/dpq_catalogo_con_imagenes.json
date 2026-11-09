@@ -1,0 +1,1056 @@
+{
+  "metadata": {
+    "business": "DPQ – Distribuidora de Productos Químicos",
+    "source": "Cuatro capturas de publicaciones de Facebook compartidas por el usuario",
+    "verification": "Extracción visual preliminar, no inventario validado",
+    "generatedAt": "2026-11-08",
+    "defaultCurrency": "MXN",
+    "publicationPolicy": "Todos los registros están en draft hasta confirmar catálogo, presentaciones, fotos, precios y disponibilidad."
+  },
+  "categories": [
+    {
+      "id": "limpieza",
+      "name": "Productos de limpieza",
+      "reviewRequired": false
+    },
+    {
+      "id": "higiene-papel",
+      "name": "Higiene y papel",
+      "reviewRequired": false
+    },
+    {
+      "id": "desinfectantes",
+      "name": "Desinfectantes",
+      "reviewRequired": false
+    },
+    {
+      "id": "control-plagas",
+      "name": "Control de plagas",
+      "reviewRequired": false
+    },
+    {
+      "id": "jarceria",
+      "name": "Jarcería y utensilios",
+      "reviewRequired": false
+    },
+    {
+      "id": "aromatizantes",
+      "name": "Aromatizantes",
+      "reviewRequired": false
+    },
+    {
+      "id": "industrial",
+      "name": "Limpieza industrial",
+      "reviewRequired": false
+    },
+    {
+      "id": "mascotas",
+      "name": "Cuidado de mascotas",
+      "reviewRequired": false
+    },
+    {
+      "id": "envases",
+      "name": "Envases y accesorios",
+      "reviewRequired": false
+    },
+    {
+      "id": "desechables",
+      "name": "Papel y desechables",
+      "reviewRequired": false
+    },
+    {
+      "id": "belleza",
+      "name": "Belleza y cuidado personal (por revisar)",
+      "reviewRequired": true
+    },
+    {
+      "id": "veladoras",
+      "name": "Veladoras (por revisar)",
+      "reviewRequired": true
+    }
+  ],
+  "products": [
+    {
+      "id": "dpq-001",
+      "slug": "detergente-liquido-para-ropa",
+      "name": "Detergente líquido para ropa",
+      "categoryId": "limpieza",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/detergente-liquido-para-ropa.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-002",
+      "slug": "detergente-liquido-multiusos",
+      "name": "Detergente líquido multiusos",
+      "categoryId": "limpieza",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/detergente-liquido-multiusos.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Se observan detergentes líquidos de distintas presentaciones; confirmar denominación exacta.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-003",
+      "slug": "limpiador-multiusos",
+      "name": "Limpiador multiusos",
+      "categoryId": "limpieza",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/limpiador-multiusos.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png",
+        "image(20261108-043958).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-004",
+      "slug": "desengrasante",
+      "name": "Desengrasante",
+      "categoryId": "limpieza",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/desengrasante.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-005",
+      "slug": "limpiador-para-pisos",
+      "name": "Limpiador para pisos",
+      "categoryId": "limpieza",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/limpiador-para-pisos.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043958).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Confirmar producto y aplicación de los envases mostrados.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-006",
+      "slug": "jabon-para-ropa-arcoiris",
+      "name": "Jabón para ropa Arcoíris",
+      "categoryId": "limpieza",
+      "brand": "Arcoíris",
+      "description": null,
+      "images": [
+        "assets/img/products/jabon-para-ropa-arcoiris.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png",
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Se aprecia el nombre Arcoíris en publicaciones; confirmar formato y proveedor.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-007",
+      "slug": "detergente-liquido-para-uso-comercial",
+      "name": "Detergente líquido para uso comercial",
+      "categoryId": "industrial",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/detergente-liquido-para-uso-comercial.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Familia inferida por soluciones para negocios; revisar si tiene referencias propias.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-008",
+      "slug": "quimicos-de-limpieza-a-granel",
+      "name": "Químicos de limpieza a granel",
+      "categoryId": "industrial",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/quimicos-de-limpieza-a-granel.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043958).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Se muestran galones y productos para abastecimiento; confirmar qué fórmulas vende DPQ.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-009",
+      "slug": "jabon-liquido-para-manos",
+      "name": "Jabón líquido para manos",
+      "categoryId": "higiene-papel",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/jabon-liquido-para-manos.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-010",
+      "slug": "shampoo-para-manos",
+      "name": "Shampoo para manos",
+      "categoryId": "higiene-papel",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/shampoo-para-manos.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Publicación rotulada «Shampoo de manos»; validar descripción exacta.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-011",
+      "slug": "papel-higienico-tork",
+      "name": "Papel higiénico Tork",
+      "categoryId": "higiene-papel",
+      "brand": "Tork",
+      "description": null,
+      "images": [
+        "assets/img/products/papel-higienico-tork.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Verificar marca y tipo de rollo disponible.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-012",
+      "slug": "papel-higienico-institucional",
+      "name": "Papel higiénico institucional",
+      "categoryId": "higiene-papel",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/papel-higienico-institucional.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png",
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-013",
+      "slug": "toallas-de-papel",
+      "name": "Toallas de papel",
+      "categoryId": "desechables",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/toallas-de-papel.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-014",
+      "slug": "servilletas-de-papel",
+      "name": "Servilletas de papel",
+      "categoryId": "desechables",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/servilletas-de-papel.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "La publicación muestra variedad de insumos de papel; confirmar referencia.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-015",
+      "slug": "dispensadores-de-papel-higienico",
+      "name": "Dispensadores de papel higiénico",
+      "categoryId": "envases",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/dispensadores-de-papel-higienico.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Se ven dispensadores junto a productos Tork; confirmar que estén a la venta.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-016",
+      "slug": "desinfectante-p-10",
+      "name": "Desinfectante P/10",
+      "categoryId": "desinfectantes",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/desinfectante-p-10.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre visible en anuncio «Desinfectante P/10 y P/20».",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-017",
+      "slug": "desinfectante-p-20",
+      "name": "Desinfectante P/20",
+      "categoryId": "desinfectantes",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/desinfectante-p-20.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre visible en anuncio «Desinfectante P/10 y P/20».",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-018",
+      "slug": "productos-sanitizantes",
+      "name": "Productos sanitizantes",
+      "categoryId": "desinfectantes",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/productos-sanitizantes.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Familia promocionada; confirmar cuáles son referencias específicas.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-019",
+      "slug": "insecticida-r20",
+      "name": "Insecticida R20",
+      "categoryId": "control-plagas",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/insecticida-r20.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre visible en publicación.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-020",
+      "slug": "insecticida-alfa-ca-zan",
+      "name": "Insecticida Alfa-Ca-Zan",
+      "categoryId": "control-plagas",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/insecticida-alfa-ca-zan.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043958).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre visible en publicación; validar ortografía exacta de etiqueta.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-021",
+      "slug": "insecticida-zorritone",
+      "name": "Insecticida Zorritone",
+      "categoryId": "control-plagas",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/insecticida-zorritone.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Se visualiza una marca similar a «Zorritone»; confirmar nombre en foto original.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-022",
+      "slug": "productos-para-control-de-cucarachas",
+      "name": "Productos para control de cucarachas",
+      "categoryId": "control-plagas",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/productos-para-control-de-cucarachas.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Publicación de control de plagas; confirmar formulación específica.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-023",
+      "slug": "escobas",
+      "name": "Escobas",
+      "categoryId": "jarceria",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/escobas.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png",
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-024",
+      "slug": "trapeadores",
+      "name": "Trapeadores",
+      "categoryId": "jarceria",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/trapeadores.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-025",
+      "slug": "esponjas-de-limpieza",
+      "name": "Esponjas de limpieza",
+      "categoryId": "jarceria",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/esponjas-de-limpieza.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png",
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-026",
+      "slug": "esponja-de-acero-inoxidable",
+      "name": "Esponja de acero inoxidable",
+      "categoryId": "jarceria",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/esponja-de-acero-inoxidable.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-027",
+      "slug": "fibras-para-limpieza",
+      "name": "Fibras para limpieza",
+      "categoryId": "jarceria",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/fibras-para-limpieza.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043939).png",
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-028",
+      "slug": "guantes-de-latex",
+      "name": "Guantes de látex",
+      "categoryId": "jarceria",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/guantes-de-latex.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-029",
+      "slug": "atomizadores",
+      "name": "Atomizadores",
+      "categoryId": "envases",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/atomizadores.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Se presentan como accesorios/envases; confirmar venta por pieza o lote.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-030",
+      "slug": "botellas-y-envases-para-productos-de-limpieza",
+      "name": "Botellas y envases para productos de limpieza",
+      "categoryId": "envases",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/botellas-y-envases-para-productos-de-limpieza.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-031",
+      "slug": "aromatizante-en-aerosol",
+      "name": "Aromatizante en aerosol",
+      "categoryId": "aromatizantes",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/aromatizante-en-aerosol.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-044008).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-032",
+      "slug": "aromas-para-automovil",
+      "name": "Aromas para automóvil",
+      "categoryId": "aromatizantes",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/aromas-para-automovil.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-033",
+      "slug": "aceites-esenciales",
+      "name": "Aceites esenciales",
+      "categoryId": "aromatizantes",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/aceites-esenciales.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Confirmar uso previsto y variedad de aromas.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-034",
+      "slug": "shampoo-para-mascotas",
+      "name": "Shampoo para mascotas",
+      "categoryId": "mascotas",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/shampoo-para-mascotas.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png",
+        "image(20261108-043958).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-035",
+      "slug": "shampoo-antipulgas-para-mascotas",
+      "name": "Shampoo antipulgas para mascotas",
+      "categoryId": "mascotas",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/shampoo-antipulgas-para-mascotas.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Se muestran shampoos para mascotas; confirmar variedad antipulgas.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-036",
+      "slug": "shampoo-para-crecimiento-del-cabello",
+      "name": "Shampoo para crecimiento del cabello",
+      "categoryId": "belleza",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/shampoo-para-crecimiento-del-cabello.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043958).png"
+      ],
+      "evidenceLevel": "media",
+      "reviewNote": "Publicación «Nuevo shampoo de crecimiento»; revisar segmento y etiqueta.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-037",
+      "slug": "crema-alisado-japones",
+      "name": "Crema alisado japonés",
+      "categoryId": "belleza",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/crema-alisado-japones.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Nombre de familia de producto identificado en publicaciones; confirmar SKU, presentación y nombre comercial antes de publicar.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-038",
+      "slug": "perfumeria-fina",
+      "name": "Perfumería fina",
+      "categoryId": "belleza",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/perfumeria-fina.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043958).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "La publicación muestra perfumes de dama y caballero; validar marcas.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    },
+    {
+      "id": "dpq-039",
+      "slug": "veladoras",
+      "name": "Veladoras",
+      "categoryId": "veladoras",
+      "brand": null,
+      "description": null,
+      "images": [
+        "assets/img/products/veladoras.webp"
+      ],
+      "variants": [],
+      "price": null,
+      "currency": "MXN",
+      "availability": "unknown",
+      "status": "draft",
+      "featured": false,
+      "rating": null,
+      "sourceScreenshots": [
+        "image(20261108-043949).png"
+      ],
+      "evidenceLevel": "alta",
+      "reviewNote": "Publicación de veladoras de varios diseños; confirmar si siguen disponibles.",
+      "imageStatus": "illustrative_ai_unverified",
+      "imageReviewRequired": true
+    }
+  ]
+}

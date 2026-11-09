@@ -1,0 +1,6 @@
+<app-header />
+<router-outlet />
+<app-footer />
+<button id="scroll-top" type="button" [class.active]="scroll.scrolled()" [attr.aria-hidden]="!scroll.scrolled()" [attr.tabindex]="scroll.scrolled() ? null : -1" (click)="scrollToTop()" aria-label="Volver arriba"><i class="far fa-arrow-up-from-arc"></i></button>
+<app-search-popup />
+<app-quick-product />

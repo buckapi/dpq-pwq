@@ -1,0 +1,39 @@
+@if (state.product(); as product) {
+  <div class="modal-backdrop fade show"></div>
+  <div class="modal quickview fade show dpq-quickview" role="dialog" aria-modal="true" aria-labelledby="quick-product-title" tabindex="-1" (keydown)="trapFocus($event)">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <button #closeButton type="button" class="btn-close" (click)="state.close()" aria-label="Cerrar vista rápida"><i class="far fa-xmark"></i></button>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="quickview-img">
+                @if (product.images[0]; as image) {
+                  <img [src]="image.url" [alt]="image.alt">
+                  @if (image.illustrative) {<p class="dpq-illustration-note">Imagen ilustrativa generada con IA · por verificar</p>}
+                } @else if (category(); as productCategory) {
+                  @if (productCategory.image) {<img class="dpq-product-placeholder" [src]="productCategory.image" [alt]="productCategory.name">}
+                  @else {<span class="dpq-product-placeholder-icon"><i class="fi fi-rr-apps" aria-hidden="true"></i></span>}
+                }
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="quickview-content">
+                @if (product.status === 'draft') {<p class="dpq-preliminary-notice">Producto preliminar, información por confirmar.</p>}
+                <h4 id="quick-product-title" class="quickview-title">{{ product.name }}</h4>
+                <div class="quickview-price"><h5>@if (product.priceMxn != null && product.status === 'published') {<span>{{ product.priceMxn | currency:'MXN':'symbol':'1.2-2' }}</span>} @else {<span>Solicitar cotización</span>}</h5></div>
+                @if (product.description) {<p>{{ product.description }}</p>}
+                <ul class="quickview-list">
+                  <li>Categoría:<span>{{ category()?.name }}</span></li>
+                  @if (product.brand && product.status === 'published') {<li>Marca:<span>{{ product.brand }}</span></li>}
+                  @if (product.availability === 'out_of_stock' && product.status === 'published') {<li>Existencia:<span>Agotado</span></li>}
+                </ul>
+                <div class="quickview-cart"><a [routerLink]="['/productos', product.slug]" class="theme-btn" (click)="state.close()">Ver detalle</a> <a [href]="quote.url(product)" class="theme-btn theme-btn2">Solicitar cotización</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+}

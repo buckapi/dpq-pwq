@@ -1,0 +1,42 @@
+/* Ajustes para controles nativos de Angular sobre los estilos originales de Medion. */
+app-root,app-header,app-footer,app-inicio,app-nosotros,app-productos,app-contacto{display:block}
+.dpq-nav-toggle{border:0;background:transparent;color:var(--color-dark);font-size:25px;display:none}
+.dpq-nav-links{display:flex;align-items:center;gap:25px}
+.dpq-nav-links>a:not(.theme-btn){font-weight:500;color:var(--color-dark)}
+.dpq-nav-links>a.active,.dpq-nav-links>a:not(.theme-btn):hover{color:var(--theme-color)}
+.dpq-search-button{border:0;background:transparent;font-size:20px;color:var(--color-dark)}
+.dpq-mobile-actions{display:none}.dpq-desktop-action{font-size:20px;color:var(--color-dark)}
+.dpq-catalog-header .search-content{display:flex}.dpq-catalog-header .search-content .form-control{min-width:0;flex:1}.header-middle-search .dpq-header-category{max-width:45%;min-width:0;flex-shrink:1;color:var(--color-dark);z-index:4}.dpq-header-category summary{overflow:hidden;text-overflow:ellipsis;list-style:none}.dpq-header-category summary::-webkit-details-marker{display:none}.dpq-header-category .list{max-height:min(400px,70vh);overflow-y:auto;min-width:250px}.dpq-header-category .option{width:100%;border:0;background:transparent;text-align:left;color:var(--color-dark);padding-right:18px}.dpq-header-category .option:focus-visible,.dpq-header-category summary:focus-visible{outline:2px solid var(--theme-color);outline-offset:-2px}
+.header-middle.dpq-dropdown-open{z-index:1040}
+.dpq-catalog-mode .main-navigation .navbar-brand{display:none}.dpq-catalog-mode .navbar{background:var(--theme-color2)}.dpq-catalog-mode .dpq-nav-links>a:not(.theme-btn),.dpq-catalog-mode .dpq-desktop-action{color:white!important}.dpq-catalog-mode .dpq-main-category{display:block}.dpq-category-menu{position:relative}
+.dpq-catalog-mode .navbar.fixed-top .navbar-brand{display:block}.dpq-catalog-mode .navbar.fixed-top .dpq-nav-links>a:not(.theme-btn),.dpq-catalog-mode .navbar.fixed-top .dpq-desktop-action{color:var(--color-dark)!important}
+.navbar.fixed-top .main-category.dpq-main-category{display:block;top:calc(100% + 6px);left:0;right:auto;max-height:calc(100vh - 90px);overflow-y:auto}
+.dpq-categories{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px}
+.dpq-categories .category-info{height:100%}.dpq-categories a{display:block;height:100%}
+.dpq-categories .category-info .content h4{overflow-wrap:anywhere}
+.search-product select{width:100%;height:50px;border:1px solid #e1e7ef;border-radius:10px;padding:0 12px;color:var(--color-dark);background:white}
+/* La plantilla inserta el buscador antes de activar sus transiciones; Angular lo
+   crea al abrirlo, por lo que se reproducen las mismas fases con keyframes. */
+.search-active .search-popup{animation:dpq-search-enter 1500ms cubic-bezier(.86,0,.07,1) both}
+.search-active .search-popup form{animation:dpq-search-form-enter 300ms ease 1200ms both}
+.search-active .search-popup .close-search{animation:dpq-search-close-enter 500ms ease 1500ms both}
+@keyframes dpq-search-enter{from{transform:translateY(-100%);margin-top:-540px}to{transform:translateY(0);margin-top:0}}
+@keyframes dpq-search-form-enter{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes dpq-search-close-enter{from{opacity:0;visibility:hidden;top:75%}to{opacity:1;visibility:visible;top:50%}}
+@media(prefers-reduced-motion:reduce){.search-active .search-popup,.search-active .search-popup form,.search-active .search-popup .close-search{animation:none;transition:none}}
+.dpq-quickview{display:block;overflow-y:auto}.dpq-quickview .quickview-cart button:disabled{opacity:.65;cursor:not-allowed}
+.dpq-share-placeholder i{width:30px;text-align:center;color:var(--color-dark2)}
+.dpq-product-thumbs{display:flex;gap:12px}.dpq-product-thumbs li{width:23%}.dpq-product-thumbs img{width:100%;border:1px solid var(--theme-color);border-radius:10px;padding:10px}.shop-single-action button:disabled{opacity:.65;cursor:not-allowed}.shop-single-share a{width:auto;padding:0 14px}
+.dpq-product-thumbs button{border:0;background:transparent;padding:0}.dpq-product-placeholder{max-height:230px;object-fit:contain;padding:30px}.dpq-card-detail{padding:6px 10px;font-size:13px}
+.dpq-illustration-note{font-size:12px;color:#59677c;margin:4px 0}.dpq-preliminary-notice{padding:12px 16px;border-radius:8px;background:#eef8f7;color:#243580;margin-bottom:20px}
+app-product-card .product-img>a{display:block}app-product-card .product-img>a img{display:block;width:100%;aspect-ratio:1;object-fit:contain}
+.shop-item-wrap .product-action-wrap:focus-within{opacity:1;visibility:visible;bottom:10px}
+.dpq-about-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 20px;margin-top:22px}.dpq-about-list li{display:flex;gap:9px;color:#243580;font-weight:500}.dpq-about-list i{color:#00a99d;margin-top:5px}
+.dpq-strengths,.dpq-about-cta,.dpq-contact-cta{padding:72px 0;background:linear-gradient(120deg,#17245c,#243580);color:white}.dpq-strengths h2,.dpq-strengths h3,.dpq-about-cta h2,.dpq-contact-cta h2{color:white}.dpq-strengths-heading{text-align:center;margin-bottom:36px}
+.dpq-strength{height:100%;padding:26px 20px;border:1px solid #ffffff2e;border-radius:18px;background:#ffffff0f}.dpq-strength img{width:48px;height:48px;padding:8px;margin-bottom:18px;border-radius:50%;background:white;object-fit:contain}.dpq-strength h3{font-size:19px}.dpq-strength p,.dpq-about-cta p,.dpq-contact-cta p{color:#ffffffd6}
+.dpq-benefits{padding:86px 0;background:#f5f7fa}.dpq-benefit-card{height:100%;padding:28px;border:1px solid #e5eaf2;border-radius:18px;background:white;transition:transform .25s,box-shadow .25s}.dpq-benefit-card:hover{transform:translateY(-5px);box-shadow:0 16px 36px #17245c1f}.dpq-benefit-card .icon{display:inline-flex;width:54px;height:54px;align-items:center;justify-content:center;margin-bottom:18px;border-radius:15px;background:#e6f8f6}.dpq-benefit-card .icon img{width:34px;height:34px}.dpq-benefit-card h3{font-size:20px}.dpq-about-categories{padding:86px 0}
+.dpq-contact-cta p{margin-bottom:22px}.contact-info-content a{overflow-wrap:anywhere}.dpq-category-grid .category-item,.dpq-category-grid .category-item>a,.dpq-category-grid .category-info{height:100%}
+.product-action button{width:40px;height:40px;line-height:40px;background:var(--theme-color);color:var(--color-white);text-align:center;border:0;border-radius:50%;margin:0 3px}.product-title{font-size:17px;color:var(--color-dark)}
+@media(max-width:991px){.dpq-nav-toggle{display:block}.dpq-mobile-actions{display:flex;align-items:center;gap:18px}.dpq-mobile-actions .nav-right-link{color:var(--color-dark);font-size:20px}.dpq-desktop-action{display:none!important}.dpq-nav-links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;background:white;padding:22px;box-shadow:0 12px 20px #17266f1a;z-index:50}.dpq-nav-links.open{display:flex}.dpq-categories{grid-template-columns:repeat(3,minmax(0,1fr))}.dpq-catalog-mode .main-navigation .navbar-brand{display:block}.dpq-catalog-mode .category-all{display:none}.dpq-catalog-mode .dpq-nav-links>a:not(.theme-btn){color:var(--color-dark)!important}.dpq-catalog-mode .main-navigation .container{justify-content:space-between}.dpq-catalog-mode .dpq-mobile-actions .nav-right-link,.dpq-catalog-mode .dpq-mobile-actions button{color:white}}
+@media(max-width:575px){.dpq-categories{grid-template-columns:repeat(2,minmax(0,1fr))}.dpq-about-list{grid-template-columns:1fr}.dpq-strengths,.dpq-benefits,.dpq-about-categories{padding:56px 0}.search-popup .form-control,.search-popup .form-control::placeholder{font-size:24px}}
+@media(max-width:991px){.home-2 .dpq-catalog-mode .navbar{background:white}.dpq-catalog-mode .dpq-mobile-actions .nav-right-link,.dpq-catalog-mode .dpq-mobile-actions button{color:var(--color-dark)}}

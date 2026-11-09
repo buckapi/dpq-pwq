@@ -1,0 +1,8 @@
+@if (state.open()) {
+  <div class="search-active">
+    <div class="search-popup" role="dialog" aria-modal="true" aria-label="Buscar productos" (click)="close()" (keydown)="trapFocus($event)">
+      <button class="close-search" type="button" (click)="$event.stopPropagation(); close()" aria-label="Cerrar búsqueda"><span class="far fa-times"></span></button>
+      <form (click)="$event.stopPropagation()" (submit)="$event.preventDefault(); submit(searchInput.value)"><div class="form-group"><input #searchInput type="search" class="form-control" placeholder="Buscar producto..." aria-label="Buscar producto" required><button type="submit" aria-label="Buscar"><i class="far fa-search"></i></button></div></form>
+    </div>
+  </div>
+}
